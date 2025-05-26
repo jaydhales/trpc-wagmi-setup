@@ -6,7 +6,6 @@ import { useAccount } from "wagmi";
 import { api } from "~/utils/api";
 
 export default function Home() {
-  const hello = api.post.hello.useQuery({ text: "from tRPC" });
   const { address } = useAccount();
 
   const balance = api.w3test.balance.useQuery(address ?? "", {
