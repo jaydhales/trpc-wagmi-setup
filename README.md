@@ -1,4 +1,4 @@
-# Create T3 App + wagmi
+# Create T3 App + Wagmi
 
 This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`, `wagmi` for Web3 integrations, and `rainbowkit` for Wallet interactions.
 
